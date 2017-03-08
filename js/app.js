@@ -5,7 +5,7 @@ app.controller('AppCtrl',['$scope','$mdBottomSheet','$mdSidenav','$mdDialog',
 
      $scope.toggleSidenav = function(menuId){
      	$mdSidenav(menuId).toggle();
-     }
+    };
 
     $scope.menu = [
        {
@@ -86,7 +86,7 @@ app.controller('AppCtrl',['$scope','$mdBottomSheet','$mdSidenav','$mdDialog',
        }).then(function(clickedItem) {
 
        });
-    }
+    };
 
   }]);
 
